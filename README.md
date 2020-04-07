@@ -11,7 +11,7 @@ There are five components within the project and three of them can be found in t
 
 2. The raw data -- the dataset we are going to tidy up. You can download it [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) or check the original [website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) where the data is obtained.  
 
-3. Script for performing the analysis.R -- the R script for performing the whole tidy up process. Check more of the details within the file in this repository!  
+3. run_analysis.R -- the R script for performing the whole tidy up process. Check more of the details within the file in this repository!  
 
 4. The tidy dataset -- download the raw data and run the R script, this tidy dataset will be generated in your working directory (TidyDataset.txt and TidyAverage.txt).  
 
