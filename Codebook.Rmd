@@ -7,8 +7,7 @@ output: html_document: keep_md:yes
 
 ## Project Description
 Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
-Here, the project cleans the data collected from the experiments and
-prepares it for further analysis.  
+Here, the project cleans the data collected from the experiments and prepares it for further analysis.  
 
 ##Study design and data processing  
 
@@ -26,12 +25,12 @@ An updated version of this dataset can be found at [Web Link]<http://archive.ics
 ##Creating the tidy datafile
 
 ###Guide to create the tidy data file
-1. Download the data from the [website]<http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>.  
+1. Download the data from the [website]<http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>. 
 2. Store it in your working directory.  
-3. Run the script ("Script for performing the analysis.R").  
+3. Run the script ("run_analysis.R").  
 4. The script will automatically output two files in your working directory: 
-* "TidyDataset.csv"--the tidy version of the dataset which contains only the measurements on the mean and standard deviation for each measurement.  
-* "TidyAverage.csv"--a tidy data set with the average of each variable for each activity and each subject.  
+* "TidyDataset.txt"--the tidy version of the dataset which contains only the measurements on the mean and standard deviation for each measurement.  
+* "TidyAverage.txt"--a tidy data set with the average of each variable for each activity and each subject.  
 
 ###Cleaning of the data
 In general, what the cleaning script does is to merge the seperated training and test datasets into one and add the corresponding activities and subjects labels that each measurements apply to.   
