@@ -2,10 +2,10 @@
 
 Welcome!  
 
-This repository is for the course project of [Getting and Cleaning Data](https://www.coursera.org/learn/data-cleaning/) from Coursera, basically what this project does is to tidy up an existing dataset for further analysis.  
+This repository is for the course project of [Getting and Cleaning Data](https://www.coursera.org/learn/data-cleaning/) from Coursera, basically what this project does is **to tidy up an existing dataset for further analysis**.  <br>
   
   
-There are five components within the project and three of them can be found in this repository:  
+There are five components within the project and three of them can be found in this repository:  <br>
   
 1. README.md -- the file you are reading now, which explains what's happening here.  
 
@@ -15,7 +15,7 @@ There are five components within the project and three of them can be found in t
 
 4. The tidy dataset -- download the raw data and run the R script, this tidy dataset will be generated in your working directory (TidyDataset.txt and TidyAverage.txt).  
 
-5. Codebook.Rmd -- a code book that describes the variables, the data, and any transformations or work that have been performed to clean up the data.    
+5. Codebook.Rmd -- a code book that describes the variables, the data, and any transformations or work that have been performed to clean up the data.    <br>
 
 
 Generally, I hope that I have done a good job on this project and successfully created my first tidy dataset!
