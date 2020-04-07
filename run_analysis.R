@@ -52,6 +52,12 @@ Mean_SD$Label<-factor(Mean_SD$Label,
 names(Mean_SD)[1]<-"Activity"
 # 4. Appropriately labels the data set 
 #    with descriptive variable names.
+names(Mean_SD)<-gsub("^t", "Time", names(Mean_SD))
+names(Mean_SD)<-gsub("^f", "Frequency", names(Mean_SD))
+names(Mean_SD)<-gsub("Acc", "Accelerometer", names(Mean_SD))
+names(Mean_SD)<-gsub("Gyro", "Gyroscope", names(Mean_SD))
+names(Mean_SD) <- gsub('\\.mean',".Mean",names(Mean_SD))
+names(Mean_SD) <- gsub('\\.std',".StandardDeviation",names(Mean_SD))
 
   ## Since we have already renamed the columns in the first
   ## step, and attempts to modify the names of the measurements
